@@ -1,0 +1,63 @@
+:root{
+    --c-dark: #212529;
+    --c-brand: #360635;
+    --c-brand-light: #940991;
+    --c-brand-rgb: 54, 6, 53;
+    --c-body: #2c3237;
+    --font-base: 'clash-display', sans-serif;
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5 ease;
+}
+body{
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-body);
+}
+
+h1,
+.h1{
+    font-weight: 600;
+    color: var(--c-brand-light);
+}
+
+.btn{
+    font-weight: 600;
+    font-size:14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+.btn-brand{
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: white;
+}
+
+.btn-brand:hover{
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    color: white;
+}
+
+.waitlist-container1{
+    background-color: rgba(var(--c-brand-rgb), 0.8);
+    justify-content: center;
+    color: rgb(255, 254, 254);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+#waitlist{
+    background-color: rgba(var(--c-brand-rgb), 0.4);
+}
+
+.myUL-container {
+    text-align: center; /* Center-align the container */
+    color: var(--c-brand);
+    }
+    
+.myUL {
+    display: inline-block; /* Make the ul an inline-block element */
+    text-align: left; /* Optional: left-align the list items */
+    }
